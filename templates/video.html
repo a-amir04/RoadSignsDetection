@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles_video.css') }}">
+        <title>Road Signs Detection</title>
+    </head>
+    <body>
+        <h1>Road Signs Detection</h1>
+        <video muted="muted" width="600" height="400" controls="controls">
+            <source src="static/uploads/video.mp4">
+        </video>
+        <form action="" method=post>
+            <p><input type=submit value=Продолжить></p>
+        </form>
+    </body>
+</html>
